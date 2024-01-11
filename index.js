@@ -25,24 +25,51 @@
 
 // objects
 
-const user = {
-    name : 'Damian',
-    lastname : 'Galeano',
-    address: {
-        country: 'spain',
-        city: 'Bilbao',
-        street: 'San fernando'
-    },
+// const user = {
+//     name : 'Damian',
+//     lastname : 'Galeano',
+//     address: {
+//         country: 'spain',
+//         city: 'Bilbao',
+//         street: 'San fernando'
+//     },
 
-    friends: ['Massi', 'Salvador'],
-    active: true,
-    sendEmail: function() {
-        return 'Sending email...'
-    }
+//     friends: ['Massi', 'Salvador'],
+//     active: true,
+//     sendEmail: function() {
+//         return 'Sending email...'
+//     }
 
-}
+// }
 
 
-console.log(user.address.country);
-console.log(user.address.country);
-console.log(user.sendEmail());
+// console.log(user.address.country);
+// console.log(user.address.country);
+// console.log(user.sendEmail());
+// console.log(user.friends);
+
+
+
+// const name = 'laptop';
+// const price = 9000;
+
+// const newProduct = {
+//     name,
+//     price
+// }
+
+
+// console.log(newProduct);
+
+
+const title = document.createElement('h1')
+  title.innerText = 'Hello world from JS'
+
+  document.body.append(title)
+
+
+const button = document.createElement('button')
+ button.innerText = 'Click'
+
+
+ document.body.append(button)
