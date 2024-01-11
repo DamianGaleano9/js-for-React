@@ -91,7 +91,8 @@ const user =  {
   age: 36
 }
 
-function printInfo({name}){
+function printInfo(user){
+  const {name, age} = user;
   return '<h1>Hola ' + name + '</h1>'
 }
 
