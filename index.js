@@ -59,17 +59,27 @@
 // }
 
 
+// manipulation 
+
 // console.log(newProduct);
 
 
-const title = document.createElement('h1')
-  title.innerText = 'Hello world from JS'
+// const title = document.createElement('h1')
+//   title.innerText = 'Hello world from JS'
 
-  document.body.append(title)
-
-
-const button = document.createElement('button')
- button.innerText = 'Click'
+//   document.body.append(title)
 
 
- document.body.append(button)
+// const button = document.createElement('button')
+//  button.innerText = 'Click'
+
+
+
+// button.addEventListener('click', function() {
+//   title.innerText = 'Text Update'
+//   alert('Text Update')
+  
+// })
+
+//  document.body.append(button)
+

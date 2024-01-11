@@ -2,3 +2,7 @@ body {
     background: #202020;
     color: white;
 }
+
+button {
+    display: inline-block; /* Otra propiedad de visualización, según sea necesario */
+}
