@@ -86,18 +86,34 @@
 
 // Destructuring
 
-const user =  {
-  name: 'Damian',
-  age: 36
+// const user =  {
+//   name: 'Damian',
+//   age: 36
+// }
+
+// function printInfo(user){
+//   const {name, age} = user;
+//   return '<h1>Hola ' + name + '</h1>'
+// }
+
+
+// console.log(printInfo(user));
+
+
+// document.body.innerHTML = printInfo(user)
+
+
+const button = document.createElement('button')
+button.innerText = 'Click me'
+
+
+function handleClick(){
+  alert('Clicked')
+
 }
 
-function printInfo(user){
-  const {name, age} = user;
-  return '<h1>Hola ' + name + '</h1>'
-}
+button.addEventListener('click', handleClick)
 
 
-console.log(printInfo(user));
 
-
-document.body.innerHTML = printInfo(user)
+document.body.append(button)
