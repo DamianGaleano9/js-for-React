@@ -83,3 +83,20 @@
 
 //  document.body.append(button)
 
+
+// Destructuring
+
+const user =  {
+  name: 'Damian',
+  age: 36
+}
+
+function printInfo({name}){
+  return '<h1>Hola ' + name + '</h1>'
+}
+
+
+console.log(printInfo(user));
+
+
+document.body.innerHTML = printInfo(user)
