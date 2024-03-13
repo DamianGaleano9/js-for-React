@@ -103,17 +103,45 @@
 // document.body.innerHTML = printInfo(user)
 
 
-const button = document.createElement('button')
-button.innerText = 'Click me'
+// handleClick
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const button = document.createElement('button');
+//   button.innerText = 'Click me';
+
+//   const isAuthorized = false;
+
+//   button.addEventListener('click', () => {
+//     if (isAuthorized) {
+//       return alert('is authorized');
+//     }
+//     alert('You are not authorized');
+//   });
+
+//   document.body.append(button);
+// });
 
 
-function handleClick(){
-  alert('Clicked')
-
-}
-
-button.addEventListener('click', handleClick)
+// document.body.appemd
 
 
 
-document.body.append(button)
+
+console.log('Hello Again');
+
+let name = 'Damian'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
