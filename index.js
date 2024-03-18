@@ -127,11 +127,19 @@
 
 
 
-console.log('Hello Again');
+// console.log('Hello Again');
 
-let name = 'Damian'
+// let newName = 'Damian'
+// var lastname = 4
+// const myName = 'El Damian'
 
 
+// console.log(newName);
+
+const firstName = 'Damian'
+
+const completeFirstNamet =  firstName.toUpperCase();
+console.log(completeFirstNamet);
 
 
 
