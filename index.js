@@ -136,10 +136,35 @@
 
 // console.log(newName);
 
-const firstName = 'Damian'
+// const firstName = 'Damian'
 
-const completeFirstNamet =  firstName.toUpperCase();
-console.log(completeFirstNamet);
+// const completeFirstNamet =  firstName.toUpperCase();
+// console.log(completeFirstNamet);
+
+
+
+// const list = []
+
+
+
+// anotherList = list.concat(369)
+// console.log(anotherList);
+
+
+// const persona = {
+//     name : 'Damian',
+//     twitter : '@damian',
+//     age : 36,
+//     isDeveloper : true,
+//     links: ['https/dami', 'https/masi']
+//  }
+
+//  const field = 'twitter'
+
+// console.log(persona.name);
+// console.log(persona.links[1]);
+// console.log(persona[field]);
+
 
 
 
