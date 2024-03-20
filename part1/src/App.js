@@ -1,9 +1,11 @@
 import './App.css';
 
-function App() {
+const  App = () => {
+
+  const mensaje = 'Hola'
   return (
     <div className="App">
-     Hello world
+     {mensaje}
     </div>
   );
 }
