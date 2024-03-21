@@ -1,11 +1,12 @@
 import './App.css';
+import './mensaje.js';
+
 
 const  App = () => {
 
-  const mensaje = 'Hola'
   return (
     <div className="App">
-     {mensaje}
+     <Mensaje message='Trabajando en React'/>
     </div>
   );
 }
