@@ -1,8 +1,5 @@
  import './App.css';
-
-const Mensaje = () => {
-  return <h1>Hola mundo</h1>
-}
+import Mensaje from './Mensaje.js'
 
 const Description = () => {
   return <p>Esta es la app del curso fullStack</p>
