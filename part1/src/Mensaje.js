@@ -1,5 +1,7 @@
-const Mensaje = () => {
-  return <h1>Hola mundo</h1>
+const Mensaje = (props) => {
+  console.log(props);
+  
+  return <h1>{props.message}</h1>
 }
 
 

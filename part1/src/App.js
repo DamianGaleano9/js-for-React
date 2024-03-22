@@ -8,9 +8,9 @@ const Description = () => {
 const  App = () => {
   return (
     <div className="App">
-     <Mensaje/>
-     <Mensaje/>
-     <Mensaje/>
+     <Mensaje message= 'Estamos trabajando'/>
+     <Mensaje message= 'en un curso'/>
+     <Mensaje message= 'de React'/>
 
      <Description/>
     </div>
