@@ -1,18 +1,16 @@
- import './App.css';
+import './App.css';
 import Mensaje from './Mensaje.js'
+import Description from './Description.js';
 
-const Description = () => {
-  return <p>Esta es la app del curso fullStack</p>
-}
 
-const  App = () => {
+const App = () => {
   return (
     <div className="App">
-     <Mensaje message= 'Estamos trabajando'/>
-     <Mensaje message= 'en un curso'/>
-     <Mensaje message= 'de React'/>
+      <Mensaje color='red' message='Estamos trabajando' />
+      <Mensaje color='yellow' message='en un curso' />
+      <Mensaje color='blue' message='de React' />
 
-     <Description/>
+      <Description />
     </div>
   );
 }
